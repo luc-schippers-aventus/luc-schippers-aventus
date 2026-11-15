@@ -20,10 +20,9 @@ jobs:
           user: luc-schippers-aventus
           config_timezone: Netherlands
           template: classic
-          base: header, activity, community, repositories, metadata
-          plugin_activity: yes
-          plugin_languages: yes
+          base: header, activity, repositories
           plugin_languages_colors: github
           plugin_languages_details: bytes-size, percentage
           plugin_languages_sections: most-used
+          plugin_isocalendar: yes
           
